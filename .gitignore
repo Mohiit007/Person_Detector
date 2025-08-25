@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+app/venv/
+
+# App uploads (keep dir via .gitkeep)
+app/uploads/*
+!app/uploads/.gitkeep
+
+# Training outputs and datasets
+runs/
+space_station/
+
+# Node
+frontend/node_modules/
+frontend/.vite/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Models (optional)
+# models/*.pt
